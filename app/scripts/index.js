@@ -12,10 +12,10 @@ $('.submit-button').on('click', function(){
 
 
   // var  = (planet.get('name'));//set as variable
-  var source   = $("#contact-list").html();
-  var template = handlebars.compile(source);
-  var html = template(planet.toJSON());
-  $('.content-container').append(html);
+  // var source   = $("#contact-list").html();
+  // var template = handlebars.compile(source);
+  // var html = template(planet.toJSON());
+  // $('.content-container').append(html);
 
   // $('.inserts').submit(function(event){
   //   console.log( $( this ).serializeArray() );
