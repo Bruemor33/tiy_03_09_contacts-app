@@ -2,13 +2,29 @@ console.log("Hello World!");
 var $ = require('jquery');
 var Backbone = require('backbone');
 var model = require('./models/model');
+var contactView = require('./views/contact-views');
 var handlebars = require('handlebars');
 
 var contactsCollection = new model.ContactInfo();
 console.log(contactsCollection);
 
-$('.submit-button').on('click', function(){
+$(function(){
+  //set up app
+  var contactsCollection = new model.ContactInfo();
+  var contactsViews = new contactView.ContactView({collection: contactsCollection});
 
+  //render
+  $('#container').html(contactsViews.render().el);
+
+  //Simulate a fetch
+  contactsViews.on('click');
+
+})
+
+
+
+// $('.submit-button').on('click', function(){
+//   console.log('you clicked');
 
 
   // var  = (planet.get('name'));//set as variable
@@ -31,4 +47,4 @@ $('.submit-button').on('click', function(){
   //
   // var postDetails = $(event.currentTarget).serializeObject();
   // console.log(postDetails);
-});
+// });
