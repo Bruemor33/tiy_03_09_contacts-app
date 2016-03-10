@@ -5,7 +5,7 @@ var handlebars = require('handlebars');
 //list view
 var ContactView = Backbone.View.extend({
   id: 'contact-list',
-
+  //hello world
   // Put event listeners within the initialize method
   initialize: function(){
 

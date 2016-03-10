@@ -9,6 +9,7 @@ var contactsCollection = new model.ContactInfo();
 console.log(contactsCollection);
 
 //AAAHHHHHHHHHH!!!!!!!
+//hello world
 
 $(function(){
   //set up app
