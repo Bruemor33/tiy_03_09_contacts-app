@@ -20,7 +20,7 @@ var ContactView = Backbone.View.extend({
     this.$el.append(view.render().el);
   }
 
-});
+}); //AAAHHHHHHHHHH!!!!!!!
 
 //Individual Item Listing
 var ContactInfoView = Backbone.View.extend({

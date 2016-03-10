@@ -10,6 +10,8 @@ var handlebars = require('handlebars');
 var contactsCollection = new model.ContactInfo();
 console.log(contactsCollection);
 
+//AAAHHHHHHHHHH!!!!!!!
+
 $(function(){
   //set up app
   var contactsCollection = new model.ContactInfo();
@@ -60,6 +62,8 @@ var Contact = Backbone.Model.extend({
 
 });
 
+//AAAHHHHHHHHHH!!!!!!!
+
 var ContactInfo = Backbone.Collection.extend({
   model: Contact,
   url: 'http://tiny-lasagna-server.herokuapp.com/collections/contact-app'
@@ -96,7 +100,7 @@ var ContactView = Backbone.View.extend({
     this.$el.append(view.render().el);
   }
 
-});
+}); //AAAHHHHHHHHHH!!!!!!!
 
 //Individual Item Listing
 var ContactInfoView = Backbone.View.extend({

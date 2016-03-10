@@ -8,6 +8,8 @@ var handlebars = require('handlebars');
 var contactsCollection = new model.ContactInfo();
 console.log(contactsCollection);
 
+//AAAHHHHHHHHHH!!!!!!!
+
 $(function(){
   //set up app
   var contactsCollection = new model.ContactInfo();
