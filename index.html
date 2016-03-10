@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+    <title>tiy_03_09_contact app</title>
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="content-container"></div>
+        <form class="inserts">
+          <div class="input-group">
+            <span class="input-group-addon" id="email"></span>
+            <input type="text" class="form-control" placeholder="Email" aria-describedby="sizing-addon2">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon" id="name"></span>
+            <input type="text" class="form-control" placeholder="Name" aria-describedby="sizing-addon2">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon" id="number"></span>
+            <input type="text" class="form-control" placeholder="Phone Number" aria-describedby="sizing-addon2">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon" id="twitter"></span>
+            <input type="text" class="form-control" placeholder="@Twitter" aria-describedby="sizing-addon2">
+          </div>
+          <div class="input-group">
+            <span class="input-group-addon" id="linkedin"></span>
+            <input type="text" class="form-control" placeholder="Linkedin Name" aria-describedby="sizing-addon2">
+          </div>
+        </form>
+
+      <div class="my-submit-button">
+        <button type="button" class="btn btn-secondary submit-button">Submit</button>
+      </div>
+
+
+    </div>
+
+    <script id="contact-list" type="text/x-handlebars-template">
+      <ul class = "input-listing">
+        <li>{{this.email}}</li>
+        <li>{{this.name}}</li>
+        <li>{{this.phone}}</li>
+        <li>{{this.twitter}}</li>
+        <li>{{this.linkedin}}</li>
+      </ul>
+    </script>
+
+    <script src="js/bundle.js"></script>
+  </body>
+</html>
