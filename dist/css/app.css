@@ -5817,4 +5817,12 @@ button.close {
 img {
   max-width: 100%; }
 
+.inserts {
+  text-align: center;
+  margin-top: 260px; }
+
+.submit-button {
+  margin-left: 500px;
+  margin-top: 30px; }
+
 /*# sourceMappingURL=app.css.map */
